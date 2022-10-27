@@ -1,7 +1,7 @@
 # Arduino CAN
 
 ## Modifications
-Added pull request: 
+Added pull request: https://github.com/sandeepmistry/arduino-CAN/pull/27/commits/47c36a5b624c412cb620c9fe1177e79fef756999  
 All credit to github user Deltaphi
 
 [![Build Status](https://travis-ci.org/sandeepmistry/arduino-CAN.svg?branch=master)](https://travis-ci.org/sandeepmistry/arduino-CAN)
@@ -56,8 +56,8 @@ Requires an external 3.3V CAN transceiver, such as a [TI SN65HVD230](http://www.
 ### Using Git
 
 ```sh
-cd ~/Documents/Arduino/libraries/
-git clone https://github.com/sandeepmistry/arduino-CAN CAN
+cd ~/Arduino/libraries/
+git clone git@github.com:JakeDimes/arduino-CAN.git CAN
 ```
 
 ## API
