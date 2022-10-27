@@ -43,6 +43,9 @@ public:
   virtual int loopback();
   virtual int sleep();
   virtual int wakeup();
+  
+  // Returing the recieve buffer improves data access speed
+  uint8_t * getRxBuf() { return _rxData; }
 
 protected:
   CANControllerClass();
